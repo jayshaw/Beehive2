@@ -1,4 +1,4 @@
-<h1>Welcome!</h1>
+<h1>Welcome to BEEHIVE!</h1>
 
 <p>
   <%= @employer.fname %> <%= @employer.lname %>
@@ -14,15 +14,6 @@
   <%= @employer.phone %>
 </p>
 
-<p>
-  <b>Password digest:</b>
-  <% @employer.password_digest %>
-</p>
-
-<p>
-  <b>Worker:</b>
-  <% @employer.worker_id %>
-</p>
 
 
 <%= link_to 'Edit', edit_employer_path(@employer) %> |

@@ -1,3 +1,17 @@
+<link href='http://fonts.googleapis.com/css?family=Vampiro+One' rel='stylesheet' type='text/css'>
+
+.large-3_columns h1 {
+  font-family: 'Vampiro One', cursive;
+}
+
+a.newuserinput {
+  background: gray;
+  color: white;
+  position: relative;
+  top: 44px;
+  width: 100%;
+}
+
 .newuserinput {
   font-size: 1.1em;
   width: 375px;
@@ -21,4 +35,19 @@ width: 375px;
 
 .button1 {
   width: 350px;
+}
+
+img {
+  min-width: 100%;
+  height: 227px;
+  width: auto;
+}
+
+#slider img {
+  min-width: 100%;
+  height: auto;
+}
+
+body {
+  text-align: center;
 }
