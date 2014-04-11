@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  description: MyString
+  duration: MyString
+  payment: 1
+  employer_id: 1
+  worker_id: 1
+
+two:
+  description: MyString
+  duration: MyString
+  payment: 1
+  employer_id: 1
+  worker_id: 1

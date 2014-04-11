@@ -1,0 +1,30 @@
+<h1>Welcome!</h1>
+
+<p>
+  <%= @employer.fname %> <%= @employer.lname %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @employer.email %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%= @employer.phone %>
+</p>
+
+<p>
+  <b>Password digest:</b>
+  <% @employer.password_digest %>
+</p>
+
+<p>
+  <b>Worker:</b>
+  <% @employer.worker_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_employer_path(@employer) %> |
+<%= link_to 'Back', employers_path %> |
+<%= link_to 'Post A New Job', new_job_path %></br>

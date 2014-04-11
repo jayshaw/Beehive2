@@ -1,0 +1,24 @@
+.newuserinput {
+  font-size: 1.1em;
+  width: 375px;
+  padding-left: 40px;
+  border: 1px solid rgba(0,0,0,0.15);
+  padding: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: rgba(0,0,0,0.04) 0px 1px 1px 0px;
+  -moz-box-shadow: rgba(0,0,0,0.04) 0px 1px 1px 0px;
+  box-shadow: rgba(0,0,0,0.04) 0px 1px 1px 0px;
+}
+
+form { 
+margin: 0 auto; 
+width: 375px;
+}
+
+.button1 {
+  width: 350px;
+}

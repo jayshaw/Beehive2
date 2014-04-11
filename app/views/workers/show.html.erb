@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Fname:</b>
+  <%= @worker.fname %>
+</p>
+
+<p>
+  <b>Lname:</b>
+  <%= @worker.lname %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @worker.email %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%= @worker.phone %>
+</p>
+
+<p>
+  <b>Password digest:</b>
+  <%= @worker.password_digest %>
+</p>
+
+<p>
+  <b>Employer:</b>
+  <%= @worker.employer_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_worker_path(@worker) %> |
+<%= link_to 'Back', workers_path %>
